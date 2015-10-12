@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barbershop Borodinsky with bootstrap</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+ 
+    </head>
+    <body class="inner-page">
+      
+	<!-- Modal -->
+		<div class="modal" id="login-form">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+			  	<div class="modal-title">ЛИЧНЫЙ КАБИНЕТ</div>
+					<p>Введите пожалуйста свой логин и пароль<br>
+					Если вы забыли пароль</p>
+					<form class="login-form">
+						<input type="text" placeholder="ЛОГИН" name="login" class="icon-login" required>
+						<input type="password" placeholder="ПАРОЛЬ" name="password" class="icon-pass" required>
+						<input type="checkbox" name="remember" id="remember-me"><label for="remember-me">Запомнить меня</label>
+						<a href="#" class="lost-password">Я забыл пароль</a>
+						<button type="submit" class="btn large">Войти</button>
+					</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+      
+      
+       <header>
+			<!-- Главное меню -->
+			<div class="container">
+				<div class="rov">
+				<nav class="navbar navbar-inverse col-xs-9 col-sm-11" role="navigation">
+					<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				 <div class="collapse navbar-collapse navbar-main">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Главная</a></li>
+				  	<li><a href="#">Информация</a></li>
+				  	<li><a href="#">Новости</a></li>
+				  	<li><a href="price.html">Прайс-лист</a></li>
+				  	<li class="active"><a href="shop.html">Магазин</a></li>
+				  	<li><a href="#">Контакты</a></li>
+				</ul>
+    			</div>
+     			</nav>
+				
+      			<div class="user-login col-xs-3 col-sm-1">
+      				<a class="user-login-btn" href="#" data-toggle="modal" data-target="#login-form">ВХОД</a>
+      			</div>
+       			</div>
+       		</div>
+       </header>
+       <div class="container">
+
+       			<div class="block-head">BARBERSHOP BORODINSKI — магазин</div>
+					<ul class="breadcrumbs">
+    					<li>Главная</li>
+    					<li>Магазин</li>
+    					<li class="current">Средства для ухода</li>
+     				</ul>
+   					<div class="col-xs-12 col-sm-3 shop-sidebar">
+   						<div class="shop-sidebar-title">Производители</div>
+   							<ul class="shop-sidebar-list">
+   								<li>
+   									<input type="checkbox" name="check-baxter" id="check-baxter">
+   									<label for="check-baxter">Baxter of California</label>
+   								</li>
+   								<li>
+   									<input type="checkbox" name="check-natty" id="check-natty">
+   									<label for="check-natty">mr natty</label>
+   								</li>
+   								<li>
+   									<input type="checkbox" name="check-suavecito" id="check-suavecito">
+   									<label for="check-suavecito">suavecito</label>
+   								</li>
+   								<li>
+   									<input type="checkbox" name="check-malin" id="check-malin">
+   									<label for="check-malin">malin+goetz</label>
+   								</li>
+   								<li>
+   									<input type="checkbox" name="check-murrays" id="check-murrays">
+   									<label for="check-murrays">murrays</label>
+   								</li>
+   								<li>
+   									<input type="checkbox" name="check-american" id="check-american">
+   									<label for="check-american">american marlin</label>
+   								</li>
+   							</ul>
+   						<div class="shop-sidebar-title">Группы товаров</div>
+   						<a href="#" class="btn sidebar">Бритвенные принадлежности</a>
+   						<a href="#" class="btn sidebar btn-active">Средства для ухода</a>
+   						<a href="#" class="btn sidebar">Аксессуары</a>
+   					</div>
+   					<div class="col-xs-12 col-sm-9 shop-content">
+   						<div class="col-xs-12 col-sm-4 product">
+   							<img class="" src="img/product-1.jpg">
+   							<p>Набор для путешествий 
+							Baxter of California</p>
+   							<a href="#" class="btn btn-item">2 900 РУБ.</a>
+   						</div>
+   						<div class="col-xs-12 col-sm-4 product">
+   							<img class="" src="img/product-1.jpg">
+   							<p>Набор для путешествий 
+							Baxter of California</p>
+   							<a href="#" class="btn btn-item">2 900 РУБ.</a>
+   						</div>
+   						<div class="col-xs-12 col-sm-4 product">
+   							<img class="" src="img/product-1.jpg">
+   							<p>Набор для путешествий 
+							Baxter of California</p>
+   							<a href="#" class="btn btn-item">2 900 РУБ.</a>
+   						</div>
+   						<div class="col-xs-12 col-sm-4 product">
+   							<img class="" src="img/product-1.jpg">
+   							<p>Набор для путешествий 
+							Baxter of California</p>
+   							<a href="#" class="btn btn-item">2 900 РУБ.</a>
+   						</div>
+   						<div class="col-xs-12 col-sm-4 product">
+   							<img class="" src="img/product-1.jpg">
+   							<p>Набор для путешествий 
+							Baxter of California</p>
+   							<a href="#" class="btn btn-item">2 900 РУБ.</a>
+   						</div>
+   						
+   						<div class="shop-pagination">
+   							<ul>
+   								<li><a href="#">1</a></li>
+   								<li><a href="#">2</a></li>
+   								<li><a href="#" class="btn-active">3</a></li>
+   								<li><a href="#">4</a></li>
+   								
+   							</ul>
+   							
+   							
+   						</div>
+   					</div>
+   			</div>
+       <footer>
+       		<div class="container">
+       			<div class="footer-adress col-xs-12 col-sm-4">
+       			    <p><strong>Barbershop «Borodinski»</strong></p>
+                    <p>Адрес: г. Москва, ул. Собаки Павлова, д. 13</p>
+                    <p>Телефон: +7 (495) 666-02-666</p>
+       			</div>
+       			<div class="social-btns col-xs-12 col-sm-4">
+       				<strong>Давайте дружить!</strong><br>
+                    <a href="http://vk.com" class="btn-social btn-social-vk"></a>
+                    <a href="http://facebook.com" class="btn-social btn-social-fb"></a>
+                    <a href="http://instagram.com" class="btn-social btn-social-inst"></a>
+       			</div>
+       			<div class="copiright col-xs-12 col-sm-4">
+       				<p>Дизайн сайта:</p>
+       				<a class="btn" href="http://glukhanko.ru/">glukhanko.ru</a
+       			</div>
+       		</div>	
+       </footer>
+    </body>
+</html>

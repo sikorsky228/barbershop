@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barbershop Borodinsky with bootstrap</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+ 
+    </head>
+    <body>
+      
+	<!-- Modal -->
+		<div class="modal" id="login-form">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+			  	<div class="modal-title">ЛИЧНЫЙ КАБИНЕТ</div>
+					<p>Введите пожалуйста свой логин и пароль<br>
+					Если вы забыли пароль</p>
+					<form class="login-form">
+						<input type="text" placeholder="ЛОГИН" name="login" class="icon-login" required>
+						<input type="password" placeholder="ПАРОЛЬ" name="password" class="icon-pass" required>
+						<input type="checkbox" name="remember" id="remember-me"><label for="remember-me">Запомнить меня</label>
+						<a href="#" class="lost-password">Я забыл пароль</a>
+						<button type="submit" class="btn large">Войти</button>
+					</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+      
+      
+       <header>
+			<!-- Главное меню -->
+			<div class="container">
+				<div class="rov">
+				<nav class="navbar navbar-inverse col-xs-9 col-sm-11" role="navigation">
+					<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				 <div class="collapse navbar-collapse navbar-main">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Главная</a></li>
+				  	<li><a href="#">Информация</a></li>
+				  	<li><a href="#">Новости</a></li>
+				  	<li><a href="price.html">Прайс-лист</a></li>
+				  	<li><a href="shop.html">Магазин</a></li>
+				  	<li><a href="#">Контакты</a></li>
+				</ul>
+    			</div>
+     			</nav>
+				
+      			<div class="user-login col-xs-3 col-sm-1">
+      				<a class="user-login-btn" href="#" data-toggle="modal" data-target="#login-form">ВХОД</a>
+      			</div>
+       			</div>
+       		</div>
+       </header>
+       <div class="main-section">
+       <div class="container">
+       <div class="logo">
+       		<a href="/"><img src="img/logo.png" alt="Barbershop"></a>
+       </div>
+       <div class="row">
+       <div class="media col-xs-12 col-sm-4">
+       		<div class="media-body">
+				<div class="media-heading">Быстро</div>
+					<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладетель стильной стрижки-минутки!</p>
+       		</div>
+       </div>
+       <div class="media col-xs-12 col-sm-4">
+       		<div class="media-body">
+				<div class="media-heading">Круто</div>
+					<p>Забудьте, как вы стриглись раньше.<br>
+      		 Мы сделаем из вас звезду футбола или кино!<br>
+      		 Во всяком случае внешне.</p>
+       		</div>
+       </div>
+       <div class="media col-xs-12 col-sm-4">
+       		<div class="media-body">
+				<div class="media-heading">Дорого</div>
+					<p>Наши мастера — профессионалы своего дела и<br> не могут стоить дешево. К тому же, разве цена<br> не дает определеный статус?</p>
+       		</div>
+       </div>
+       </div>
+       </div>
+       
+       <div class="container">
+       <!-- Первый блок на странице - новости и фотогалерея-->
+       <div class="main-page-block row">
+       		<div class="main-page-block-left-column col-xs-12 col-sm-6">
+       			<div class="main-page-column-title">Новости</div>
+       				<ul class="main-page-news">
+       					<li><a href="#">Нам наконец завезли ягермейстер, теперь вы можете конкретно нажраться во время стрижки</a>
+       					<br>
+       					<span class="main-page-news-data">22 сентября</span>
+       					</li>
+						<li><a href="#">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</a>
+      					<br>
+       					<span class="main-page-news-data">25 сентября</span>
+       					</li>
+       				</ul>
+       				<a href="#"><div class="btn">Все новости</div></a>
+       		</div>
+       		<div class="main-page-block-right-column col-xs-12 col-sm-6">
+       			<div class="main-page-column-title">Фотогалерея</div>
+       				<div class="center-wrapper">
+       					<img src="img/photo-1.jpg">
+       				</div>
+       				<div class="center-wrapper">
+       					<a href="#"><div class="btn">Назад</div></a>
+       					<a href="#"><div class="btn">Вперед</div></a>
+       				</div>
+       				</div>
+       		</div>
+       
+       <!-- Второй блок на странице - контактная информация и форма записи-->
+       <div class="main-page-block row">
+       		<div class="main-page-block-left-column col-xs-12 col-sm-6">
+       			<div class="main-page-column-title">Контактная информация</div>
+       			
+       				<div class="main-adress">
+						BARBERSHOP «BORODINSKI»<br>
+						АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+						ТЕЛЕФОН: +7 (495) 666-02-666
+					</div>
+					<div class="work-time">
+						ВРЕМЯ РАБОТЫ:<br>
+						ПН — ПТ: С 10:00 ДО 22:00<br>
+						СБ — ВС: С 10:00 ДО 19:00
+					</div>
+     				<div class="center-wrapper">
+      					<a href="#"><div class="btn">Как проехать</div></a>
+       					<a href="#"><div class="btn">Обратная связь</div></a>
+       				</div>
+       		</div>
+       		<div class="main-page-block-right-column col-xs-12 col-sm-6">
+       			<div class="main-page-column-title">Записаться</div>
+       				<p>
+       					УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
+       					 С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+       				</p>
+       				<div class="feedback">
+       				<form>
+       					<input type="text" placeholder="ДАТА" name="name">
+       					<input type="text" placeholder="ВРЕМЯ" name="time">
+       					<input type="text" placeholder="ВАШЕ ИМЯ">
+       					<input type="text" placeholder="ТЕЛЕФОН">
+       					<input type="button" value="ОТПРАВИТЬ" class="btn large">
+       				</form>
+					</div>
+       		</div>
+       </div>
+       </div>
+       </div>
+       <footer>
+       		<div class="container">
+       			<div class="footer-adress col-xs-12 col-sm-4">
+       			    <p><strong>Barbershop «Borodinski»</strong></p>
+                    <p>Адрес: г. Москва, ул. Собаки Павлова, д. 13</p>
+                    <p>Телефон: +7 (495) 666-02-666</p>
+       			</div>
+       			<div class="social-btns col-xs-12 col-sm-4">
+       				<strong>Давайте дружить!</strong><br>
+                    <a href="http://vk.com" class="btn-social btn-social-vk"></a>
+                    <a href="http://facebook.com" class="btn-social btn-social-fb"></a>
+                    <a href="http://instagram.com" class="btn-social btn-social-inst"></a>
+       			</div>
+       			<div class="copiright col-xs-12 col-sm-4">
+       				<p>Дизайн сайта:</p>
+       				<a class="btn" href="http://glukhanko.ru/">glukhanko.ru</a
+       			</div>
+       		</div>	
+       </footer>
+       
+       
+       <script>
+	   		var link = document.querySelector(".user-login-btn");
+		    var loginForm = document.querySelector(".login-form");
+		    var login = loginForm.querySelector("[name=login]");
+		   	
+			link.addEventListener("click", function(event) {
+				
+				
+				  login.focus();
+				  console.error('Клик');
+			});
+		   
+				
+	   </script>
+    </body>
+</html>

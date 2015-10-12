@@ -1,0 +1,25 @@
+@font-family-sans-serif: 'PT Sans Narrow', sans-serif;
+
+@container-large-desktop: @container-desktop;
+@grid-gutter-width : 20px;
+
+@text-color: #000;
+
+@navbar-height: 72px;
+@navbar-inverse-bg : #000;
+@navbar-inverse-link-color : #fff;
+@navbar-inverse-link-hover-color : @navbar-inverse-link-color;
+@navbar-margin-bottom : 0;
+@navbar-inverse-link-hover-bg: #242424;
+/*Запоротая переменная, зато не мешает менять фон при наведении*/
+@navbar-inverse-link-active-bg : none;
+@nav-link-padding: 10px 26px 10px 21px;
+@navbar-padding-horizontal: 0;
+
+
+/*Перекрываем отступ для первого элемента media*/
+@media-top: 21px;
+
+.media, .media:first-child{
+	margin-top: @media-top;
+}

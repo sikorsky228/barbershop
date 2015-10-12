@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barbershop Borodinsky with bootstrap</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+ 
+    </head>
+    <body class="inner-page">
+      
+	<!-- Modal -->
+		<div class="modal" id="login-form">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+			  	<div class="modal-title">ЛИЧНЫЙ КАБИНЕТ</div>
+					<p>Введите пожалуйста свой логин и пароль<br>
+					Если вы забыли пароль</p>
+					<form class="login-form">
+						<input type="text" placeholder="ЛОГИН" name="login" class="icon-login" required>
+						<input type="password" placeholder="ПАРОЛЬ" name="password" class="icon-pass" required>
+						<input type="checkbox" name="remember" id="remember-me"><label for="remember-me">Запомнить меня</label>
+						<a href="#" class="lost-password">Я забыл пароль</a>
+						<button type="submit" class="btn large">Войти</button>
+					</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+      
+      
+       <header>
+			<!-- Главное меню -->
+			<div class="container">
+				<div class="rov">
+				<nav class="navbar navbar-inverse col-xs-9 col-sm-11" role="navigation">
+					<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				 <div class="collapse navbar-collapse navbar-main">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Главная</a></li>
+				  	<li><a href="#">Информация</a></li>
+				  	<li><a href="#">Новости</a></li>
+				  	<li class="active"><a href="price.html">Прайс-лист</a></li>
+				  	<li><a href="shop.html">Магазин</a></li>
+				  	<li><a href="#">Контакты</a></li>
+				</ul>
+    			</div>
+     			</nav>
+				
+      			<div class="user-login col-xs-3 col-sm-1">
+      				<a class="user-login-btn" href="#" data-toggle="modal" data-target="#login-form">ВХОД</a>
+      			</div>
+       			</div>
+       		</div>
+       </header>
+       <div class="container">
+       		<div class="inner-block">
+       			<div class="block-head">BARBERSHOP BORODINSKI — ПРАЙС-ЛИСТ</div>
+					<ul class="breadcrumbs">
+    					<li>Главная</li>
+    					<li class="current">Прайс-лист</li>
+     				</ul>
+      			<div class="price-block-head-title"><h1>Истинно мужская классика</h1></div>
+      			<div class="rov">
+      				<div class="col-xs-12 col-sm-6 price-block-left-column">
+      					<div class="price-block-title">МЫ ИСПОЛЬЗУЕМ ТОЛЬКО <br> ЛУЧШИЕ СРЕДСТВА</div>
+      					<ul class="price-block-list">
+      						<li>Baxter of California</li>
+      						<li>Mr Natty</li>
+      						<li>Suavecito</li>
+      						<li>Malin+Goetz</li>
+      					</ul>
+      					<div class="price-block-title">НЕСКОЛЬКО СЛОВ О НАС:</div>
+      					<p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+      				</div>
+      				<div class="col-xs-12 col-sm-6 price-block-right-column">
+      					<div class="price-block-title">ЦЕНЫ НА УСЛУГИ <br> НАШИХ МАСТЕРОВ:</div>
+      					<table class="price-block-table">
+      						<tr>
+      							<td>Стрижка</td>
+      							<td class="center-column">1500 р.</td>
+      						</tr>
+      						 <tr>
+      							<td>Стрижка бороды</td>
+      							<td class="center-column">500 р.</td>
+      						</tr>
+      						 <tr>
+      							<td>Накрутка усов</td>
+      							<td class="center-column">350 р.</td>
+      						</tr>
+      					</table>
+      					<p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+      					
+      				</div>
+      			</div>
+       		</div>
+       </div>
+       <footer>
+       		<div class="container">
+       			<div class="footer-adress col-xs-12 col-sm-4">
+       			    <p><strong>Barbershop «Borodinski»</strong></p>
+                    <p>Адрес: г. Москва, ул. Собаки Павлова, д. 13</p>
+                    <p>Телефон: +7 (495) 666-02-666</p>
+       			</div>
+       			<div class="social-btns col-xs-12 col-sm-4">
+       				<strong>Давайте дружить!</strong><br>
+                    <a href="http://vk.com" class="btn-social btn-social-vk"></a>
+                    <a href="http://facebook.com" class="btn-social btn-social-fb"></a>
+                    <a href="http://instagram.com" class="btn-social btn-social-inst"></a>
+       			</div>
+       			<div class="copiright col-xs-12 col-sm-4">
+       				<p>Дизайн сайта:</p>
+       				<a class="btn" href="http://glukhanko.ru/">glukhanko.ru</a
+       			</div>
+       		</div>	
+       </footer>
+       
+       
+       <script>
+	   		var link = document.querySelector(".user-login-btn");
+		    var loginForm = document.querySelector(".login-form");
+		    var login = loginForm.querySelector("[name=login]");
+		   	
+			link.addEventListener("click", function(event) {
+				
+				
+				  login.focus();
+				  console.error('Клик');
+			});
+		   
+				
+	   </script>
+    </body>
+</html>
